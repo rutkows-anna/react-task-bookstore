@@ -1,0 +1,25 @@
+.text {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  font-weight: 800;
+}
+.link {
+  align-self: flex-end;
+  margin: 8% 8px 8px;
+  padding: 8px 40px;
+  border: solid 2px var(--accents-color);
+  border-radius: var(--border-radius);
+  color: var(--primary-color);
+  background-color: var(--accents-color);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  cursor: pointer;
+}
+.link:hover {
+  color: var(--accents-color);
+  background-color: var(--primary-color);
+}
+.link:focus {
+  outline: none;
+}

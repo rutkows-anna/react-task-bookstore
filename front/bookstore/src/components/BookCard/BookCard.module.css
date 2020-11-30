@@ -1,0 +1,72 @@
+.card {
+  margin: 20px 0;
+  width: 100%;
+  max-width: 1000px;
+  height: 30rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.poster {
+  height: 100%;
+  width: auto;
+  border-radius: var(--border-radius);
+}
+.content {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.title {
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+.info {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+.button {
+  align-self: flex-end;
+  margin-top: 5%;
+  padding: 8px 40px;
+  border: solid 2px var(--accents-color);
+  border-radius: var(--border-radius);
+  color: var(--primary-color);
+  background-color: var(--accents-color);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  cursor: pointer;
+}
+.button:hover {
+  color: var(--accents-color);
+  background-color: var(--primary-color);
+}
+.button:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    height: 20rem;
+  }
+  .content {
+    padding: 8px;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .info {
+    font-size: 1.2rem;
+  }
+  .button {
+    margin-top: 0;
+    padding: 7px;
+    font-size: 1.2rem;
+  }
+}

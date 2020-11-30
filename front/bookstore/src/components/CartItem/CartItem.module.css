@@ -1,0 +1,52 @@
+.item {
+  margin: 8px 0;
+  padding: 8px;
+  width: 100%;
+  max-width: 800px;
+  height: 10rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.poster {
+  height: 100%;
+  width: auto;
+  border-radius: var(--border-radius);
+}
+.title {
+  width: 60%;
+  padding: 0 1%;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+.quantity {
+  width: 20%;
+  padding: 0 1%;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+.button {
+  margin: 8px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.button:focus {
+  outline: none;
+}
+.trash {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 1.4rem;
+  }
+  .quantity {
+    font-size: 1.4rem;
+  }
+}

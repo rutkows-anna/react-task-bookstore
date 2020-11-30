@@ -1,0 +1,7 @@
+.error {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  font-weight: 800;
+  color: var(--error-color);
+  text-align: center;
+}
